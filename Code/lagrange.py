@@ -94,8 +94,7 @@ def calculate():
 entry_frame = tk.Frame(root, bg=bg_color)
 entry_frame.pack(expand=True, fill='both', padx=20, pady=20)
 
-tk.Label(entry_frame,
-    text="How many items?", bg=bg_color, fg=text_color, font=("Segoe UI", 16, "bold")).pack(pady=10, fill='x')
+tk.Label(entry_frame, text="How many items?", bg=bg_color, fg=text_color, font=("Segoe UI", 16, "bold")).pack(pady=10, fill='x')
 entry_count = tk.Entry(entry_frame, bg=entry_bg, fg=entry_fg, font=font_style, relief='flat', justify='center')
 entry_count.pack(pady=10, fill='x')
 
